@@ -1,0 +1,17 @@
+Package: listviewerlite
+Title: View Lists Interactively
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Long", "Nguyen", , "long.nguyen@uni-bielefeld.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-8878-7386")),
+    person(c("Kate", "Rose"), "Morley", role = "aut",
+           comment = "CSS custom properties <https://iamkate.com/code/tree-views/>")
+  )
+Description: Creates a collapsible tree view of R lists using only HTML
+    and CSS, without the need for JavaScript.
+License: MIT + file LICENSE
+Imports: 
+    htmltools (>= 0.3.4)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3

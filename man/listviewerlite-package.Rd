@@ -8,6 +8,14 @@
 \description{
 Creates a collapsible tree view of R lists using only HTML and CSS, without the need for JavaScript.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/long39ng/listviewerlite}
+  \item Report bugs at \url{https://github.com/long39ng/listviewerlite/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Long Nguyen \email{long.nguyen@uni-bielefeld.de} (\href{https://orcid.org/0000-0001-8878-7386}{ORCID})
 

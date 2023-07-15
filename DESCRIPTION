@@ -10,6 +10,8 @@ Authors@R: c(
 Description: Creates a collapsible tree view of R lists using only HTML
     and CSS, without the need for JavaScript.
 License: MIT + file LICENSE
+URL: https://github.com/long39ng/listviewerlite
+BugReports: https://github.com/long39ng/listviewerlite/issues
 Imports: 
     htmltools (>= 0.3.4)
 Encoding: UTF-8

@@ -61,14 +61,17 @@ tag <- function(x, name = NULL) {
   if (!is.vector(x) && typeof(x) == "list") x <- as.list(x)
 
   if (is.null(x)) {
-    tags$li(name, tags$code("NULL"))
+    tags$li(name, tags$span(tags$code(class = "vec-header", "<NULL>")))
   } else if (is.atomic(x)) {
     if (is.character(x) && length(x) > 0) {
       x <- gsub("\\n", "\u21B5", x, perl = TRUE)
       x <- str_truncate(x, if (length(x) == 1) 64 else 16)
-      x <- paste0("\"", x, "\"")
+      x <- ifelse(is.na(x), x, paste0("\"", x, "\""))
     }
-    tags$li(tag_header(x, name), vec_truncate(x, 8))
+    tags$li(
+      tag_header(x, name),
+      tags$span(class = "vec-data", htmltools::HTML(vec_truncate(x, 8)))
+    )
   } else {
     if (is_named(x)) {
       list_items <- mapply(tag, x, names(x), SIMPLIFY = FALSE, USE.NAMES = FALSE)
@@ -86,6 +89,9 @@ tag_header <- function(x, name) {
 
   tags$span(
     name,
-    tags$code(paste0("<", type, if (length(x) > 1) " [1:" else " [", length(x), "]>"))
+    tags$code(
+      class = "vec-header",
+      paste0("<", type, if (length(x) > 1) " [1:" else " [", length(x), "]>")
+    )
   )
 }

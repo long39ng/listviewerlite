@@ -7,6 +7,7 @@ str_truncate <- function(x, n) {
 
 vec_truncate <- function(x, n) {
   x <- as.character(x)
+  x <- ifelse(is.na(x), paste0("<em>", x, "</em>"), x)
   if (length(x) > n) {
     x <- c(utils::head(x, n), "\u2026")
   }

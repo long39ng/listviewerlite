@@ -1,3 +1,9 @@
 ^listviewerlite\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^README\.Rmd$
+^preview\.gif$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$

@@ -1,5 +1,5 @@
 Package: listviewerlite
-Title: View Lists Interactively
+Title: View Nested Lists Interactively
 Version: 0.0.0.9000
 Authors@R: c(
     person("Long", "Nguyen", , "long.nguyen@uni-bielefeld.de", role = c("aut", "cre"),
@@ -10,7 +10,7 @@ Authors@R: c(
 Description: Creates a collapsible tree view of R lists using only HTML
     and CSS, without the need for JavaScript.
 License: MIT + file LICENSE
-URL: https://github.com/long39ng/listviewerlite
+URL: https://github.com/long39ng/listviewerlite, https://long39ng.github.io/listviewerlite/
 BugReports: https://github.com/long39ng/listviewerlite/issues
 Imports: 
     htmltools (>= 0.3.4)

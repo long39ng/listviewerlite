@@ -4,7 +4,7 @@
 \name{listviewerlite-package}
 \alias{listviewerlite}
 \alias{listviewerlite-package}
-\title{listviewerlite: View Lists Interactively}
+\title{listviewerlite: View Nested Lists Interactively}
 \description{
 Creates a collapsible tree view of R lists using only HTML and CSS, without the need for JavaScript.
 }
@@ -12,6 +12,7 @@ Creates a collapsible tree view of R lists using only HTML and CSS, without the 
 Useful links:
 \itemize{
   \item \url{https://github.com/long39ng/listviewerlite}
+  \item \url{https://long39ng.github.io/listviewerlite/}
   \item Report bugs at \url{https://github.com/long39ng/listviewerlite/issues}
 }
 

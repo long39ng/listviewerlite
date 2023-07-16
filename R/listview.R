@@ -45,6 +45,9 @@ listview <- function(x) {
 
   ret <- tags$ul(class = "tree", tag(x), css)
 
+  # Expand top level by default
+  ret$children[[1]]$children[[1]]$attribs <- list(open = "true")
+
   structure(ret, class = c("html_tree", class(ret)))
 }
 

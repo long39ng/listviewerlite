@@ -1,6 +1,5 @@
 ---
 output: github_document
-always_allow_html: true
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -32,7 +31,7 @@ devtools::install_github("long39ng/listviewerlite")
 
 ## Example
 
-```{r}
+``` r
 library(listviewerlite)
 
 x <- list(
@@ -64,7 +63,7 @@ x <- list(
 listview(x)
 ```
 
-<!-- ![](man/figures/preview.gif){width=480px} -->
+![](man/figures/preview.gif){width=480px}
 
 ## Acknowledgements
 

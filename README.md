@@ -53,7 +53,249 @@ x <- list(
 listview(x)
 ```
 
-<img src="man/figures/preview.gif" width="480" />
+<ul class="tree">
+<li>
+<details open="true">
+<summary>
+<span>
+<code class="vec-header">&lt;list [1:3]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<details>
+<summary>
+<span>
+<code class="vec-header">&lt;named list [1:2]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<span>
+id
+<code class="vec-header">&lt;character [1]&gt;</code>
+</span>
+<span class="vec-data">"a"</span>
+</li>
+<li>
+<span>
+val
+<code class="vec-header">&lt;double [1]&gt;</code>
+</span>
+<span class="vec-data">2</span>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary>
+<span>
+<code class="vec-header">&lt;named list [1:3]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<span>
+id
+<code class="vec-header">&lt;character [1]&gt;</code>
+</span>
+<span class="vec-data">"b"</span>
+</li>
+<li>
+<span>
+val
+<code class="vec-header">&lt;double [1]&gt;</code>
+</span>
+<span class="vec-data">1</span>
+</li>
+<li>
+<details>
+<summary>
+<span>
+children
+<code class="vec-header">&lt;list [1:2]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<details>
+<summary>
+<span>
+<code class="vec-header">&lt;named list [1:2]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<span>
+id
+<code class="vec-header">&lt;character [1]&gt;</code>
+</span>
+<span class="vec-data">"b1"</span>
+</li>
+<li>
+<span>
+val
+<code class="vec-header">&lt;double [1]&gt;</code>
+</span>
+<span class="vec-data">2.5</span>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary>
+<span>
+<code class="vec-header">&lt;named list [1:3]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<span>
+id
+<code class="vec-header">&lt;character [1]&gt;</code>
+</span>
+<span class="vec-data">"b2"</span>
+</li>
+<li>
+<span>
+val
+<code class="vec-header">&lt;double [1]&gt;</code>
+</span>
+<span class="vec-data">8</span>
+</li>
+<li>
+<details>
+<summary>
+<span>
+children
+<code class="vec-header">&lt;list [1]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<details>
+<summary>
+<span>
+<code class="vec-header">&lt;named list [1:2]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<span>
+id
+<code class="vec-header">&lt;character [1]&gt;</code>
+</span>
+<span class="vec-data">"b21"</span>
+</li>
+<li>
+<span>
+val
+<code class="vec-header">&lt;double [1]&gt;</code>
+</span>
+<span class="vec-data">4</span>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary>
+<span>
+<code class="vec-header">&lt;named list [1:3]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<span>
+id
+<code class="vec-header">&lt;character [1]&gt;</code>
+</span>
+<span class="vec-data">"c"</span>
+</li>
+<li>
+<span>
+val
+<code class="vec-header">&lt;double [1]&gt;</code>
+</span>
+<span class="vec-data">8</span>
+</li>
+<li>
+<details>
+<summary>
+<span>
+children
+<code class="vec-header">&lt;list [1:2]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<details>
+<summary>
+<span>
+<code class="vec-header">&lt;named list [1]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<span>
+id
+<code class="vec-header">&lt;character [1]&gt;</code>
+</span>
+<span class="vec-data">"c1"</span>
+</li>
+</ul>
+</details>
+</li>
+<li>
+<details>
+<summary>
+<span>
+<code class="vec-header">&lt;named list [1:2]&gt;</code>
+</span>
+</summary>
+<ul>
+<li>
+<span>
+id
+<code class="vec-header">&lt;character [1]&gt;</code>
+</span>
+<span class="vec-data">"c2"</span>
+</li>
+<li>
+<span>
+val
+<code class="vec-header">&lt;double [1]&gt;</code>
+</span>
+<span class="vec-data">1</span>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+</ul>
+<!-- ![](man/figures/preview.gif){width=480px} -->
 
 ## Acknowledgements
 

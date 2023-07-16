@@ -53,7 +53,7 @@ x <- list(
 listview(x)
 ```
 
-<img src="preview.gif" width="480px" />
+<img src="man/figures/preview.gif" width="480" />
 
 ## Acknowledgements
 

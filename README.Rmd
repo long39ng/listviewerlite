@@ -63,39 +63,7 @@ x <- list(
 listview(x)
 ```
 
-```{r echo=FALSE, out.width='480px'}
-if (!knitr::is_html_output("gfm")) {
-  x <- list(
-    list(id = "a", val = 2),
-    list(
-      id = "b",
-      val = 1,
-      children = list(
-        list(id = "b1", val = 2.5),
-        list(
-          id = "b2",
-          val = 8,
-          children = list(
-            list(id = "b21", val = 4)
-          )
-        )
-      )
-    ),
-    list(
-      id = "c",
-      val = 8,
-      children = list(
-        list(id = "c1"),
-        list(id = "c2", val = 1)
-      )
-    )
-  )
-
-  listviewerlite::listview(x)
-} else {
-  knitr::include_graphics("preview.gif")
-}
-```
+![](man/figures/preview.gif){width=480px}
 
 ## Acknowledgements
 

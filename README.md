@@ -6,8 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-`listview()` creates a collapsible tree view of R lists using only HTML
-and CSS, without the need for JavaScript.
+listviewerlite provides a single function `listview()`, which creates a
+collapsible tree view of R lists using only HTML and CSS, without the
+need for JavaScript.
 
 ## Installation
 
